@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/results")
+@RequestMapping("/attempts")
 public class AttemptController {
     private final QuizService quizService;
 
